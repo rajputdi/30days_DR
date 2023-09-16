@@ -49,7 +49,7 @@ if query_params:
         st.session_state.day = days_list[0]
 
 selected_day = st.selectbox(
-    _("Start the Challenge 👇"), days_list, key="day", on_change=update_params,
+    _("Start the Challenge DR 👇"), days_list, key="day", on_change=update_params,
     format_func=format_day
 )
 
